@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url("../assets/bg-header.jpg") no-repeat  center ;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+button{
+    width: 147px;
+    height: 46px;
+    border-radius:30px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn-variant-1{
+  background-color:#111;
+ 
+}
+.btn-variant-1 a{
+  color: #D7D7D7;
+   font-family: "Nunito", sans-serif;
+}
+
+.btn-variant-2{
+    background-color: #D7D7D7;
+    color: #111;
+    font-family: "Nunito", sans-serif;
+}
+.buttons{
+  width: 500px;
+  height: auto;
+  display: flex;
+ justify-content: space-between;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.container h1 span{
+    color: #D7D7D7;
+    font-family: "Nunito", sans-serif;
+}
+.container p span{
+    color: #D7D7D7;
+    font-family: "Nunito", sans-serif;
+}
+.texts{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
