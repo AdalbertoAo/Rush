@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    min-height: 100vh;
+    background: radial-gradient(
+        circle at 50% 85%,
+        #f5f3f3a8 0%,
+        #d8d6d6 40%,
+        #e6e6e6 100%
+    );
+}
+
+.subtitle{
+    font-size: 30px;
+    
+}
+.about{
+    text-align: center;
+    padding: 80px 20px;
+}
+.title{
+    display: inline-block;
+    border: 5px solid black;
+    padding: 10px 30px;
+    margin-bottom: 35px;
+    font-weight: 30px;
+    letter-spacing: 8px;
+}
+.about-text{
+    font-size: 18px;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 1.7;
+    
+}
+.exp{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.exp h3{
+    letter-spacing: 6px;
+    margin-bottom: 60px;
+}
+
+.cartao{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.col1 {
+    width: 700px;
+    text-align: right;
+}
+.col2 {
+    width: 700px;
+    text-align: left;
+}
+
+.dvd{
+    width: 1px;
+    background: #ccc;
+}
+.col h4{
+    margin-bottom: 5px;
+}
+col span{
+    color: #666;
+    font-size: 14px;
+}
+.icons {
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.icons{
+    margin: 0 6px;
+    cursor: pointer;
+}
+.post{                  
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgb(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.post h5{
+    font-size: 23px;
+    margin-bottom: 8px;
+}
+
+.post small{
+    color: #777;
+    font-size: 18px;
+}
+.post p{
+    margin-bottom: 120px;
+}
+
+/* .cartao{
+    flex-direction: column;
+    align-items: center;
+}
+.cartao{
+    width: 90%;
+}
+.post h5{
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+.post small{
+    color: gray;
+    display: block;
+    margin-bottom: 10px;
+}
+.about p{
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.8; 
+    }*/
