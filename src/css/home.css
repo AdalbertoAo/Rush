@@ -8,10 +8,14 @@
     font-family: sans-serif;
 }
 
+headar{
+ width: 100vh;
+    height: 100vh;
+}
 .container{
     width: 100%;
     height: 100vh;
-    background: url("../assets/bg-header.jpg") no-repeat  center ;
+    background: url("../assets/bg-code.avif") no-repeat  center ;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -27,35 +31,29 @@ button{
     font-size: 16px;
     font-weight: bold;
 }
-.btn-variant-1{
-  background-color:#111;
- 
-}
-.btn-variant-1 a{
-  color: #D7D7D7;
+
+.btn a{
+  color: #111;
    font-family: "Nunito", sans-serif;
 }
 
-.btn-variant-2{
-    background-color: #D7D7D7;
-    color: #111;
-    font-family: "Nunito", sans-serif;
-}
+
 .buttons{
   width: 500px;
   height: auto;
   display: flex;
- justify-content: space-between;
+    justify-content: space-between;
 }
 a{
     color: inherit;
     text-decoration: none;
 }
-.container h1 span{
+.container h1{
     color: #D7D7D7;
     font-family: "Nunito", sans-serif;
+
 }
-.container p span{
+.container p{
     color: #D7D7D7;
     font-family: "Nunito", sans-serif;
 }
@@ -64,4 +62,26 @@ a{
   flex-direction: column;
   align-items: center;
   gap: 12px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+    overflow: hidden;
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+  }
+
+  .buttons{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container h1, p {
+    text-align: center;
+}
 }

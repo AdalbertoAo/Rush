@@ -39,13 +39,12 @@
 }
 
 .cartao{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
+    width: 100%;
+    height: auto;
 }
 
 .col1 {
-    width: 700px;
+    width: 100%;
     text-align: right;
 }
 .col2 {
@@ -73,10 +72,14 @@ col span{
     margin: 0 6px;
     cursor: pointer;
 }
-.post{                  
+.post{        
+    display: flex;
+    gap: 10px;
+    flex-direction: column;  
+         
+    max-width: 460px;
     background-color: white;
     padding: 20px;
-    margin-top: 20px;
     border-radius: 8px;
     box-shadow: 0 10px 30px rgb(0, 0, 0, 0.1);
     text-align: left;
@@ -91,29 +94,31 @@ col span{
     color: #777;
     font-size: 18px;
 }
-.post p{
-    margin-bottom: 120px;
+
+
+.section-post{
+    width: 100%;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    .about-text{
+    font-size: 18px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 1.7;
+    
 }
 
-/* .cartao{
+.section-post{
+    width: 100%;
+    display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 80px;
+    justify-content: center;
 }
-.cartao{
-    width: 90%;
+
+
 }
-.post h5{
-    margin-bottom: 10px;
-    font-size: 16px;
-    border-radius: 8px;
-}
-.post small{
-    color: gray;
-    display: block;
-    margin-bottom: 10px;
-}
-.about p{
-    max-width: 700px;
-    margin: auto;
-    line-height: 1.8; 
-    }*/

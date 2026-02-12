@@ -18,96 +18,101 @@
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <title>Jose Tati</title>
 </head>
-<body>
-    <header class="">
+<body id="top">
+    <header id="home" class="">
     <div class="container">
         <div class="layout">
             <div class="wrapper">
                 <nav>
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About Us</a></li>
+                     <input type="checkbox" id="check">
+                      <label for="check" class="menu-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                    <ul class="nav-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#main">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <button>CONTACT ME</button>
                     </ul>
-                    <button>CONTACT US</button>
+                    
                 </nav>
                 <section class="content">
                     <article class="left">
-                        <span>Hi, We are</span>
-                        <h1>Adalberto & Teddy</h1>
-                        <p>Front-end Deeloper / UI Designer/ Back-end Developer</p>
+                        <span>Hi, I am</span>
+                        <h1>Jose Tati</h1>
+                        <p>Software Engenier Back-end</p>
+                        <div class="icons">
+                        <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
                     </article>
+                    
 
-                        <img class="persona" src="./assets/personas.png" alt="personas">
+                        <img class="persona" src="../assets/teddy.png" alt="personas">
                
                 </section>
               </div>
             </div>
-        </div>
+            
     </header>
-    <main class="body-main">
+    <main id="main" class="body-main">
+        <div class="experience layout">
+
+        
           <section class="about">
-        <div class="title"><h2>ABOUT US</h2></div>
+        <div class="title"><h2>ABOUT ME</h2></div>
 
          <p class="about-text">
-        Somos uma dupla de desenvolvedores apaixonados por tecnologia.
-        Criamos soluções digitais modernas e intuitivas.
+      Sou um Engenheiro de Software focado em Back-End, com domínio especialista em Python. Minha paixão é arquitetar sistemas robustos, 
+      escaláveis e eficientes que resolvam problemas complexos de negócio. Tenho vasta experiência no desenvolvimento de APIs RESTful 
+      utilizando FastAPI e 
+      Django, além de um olhar crítico para a otimização de bases de dados e processamento assíncrono. 
+      Acredito que o código invisível ao utilizador é o que sustenta o sucesso de qualquer produto digital."
         </p>
 
     </section>
 
     <section class="exp">
         <h3 class="subtitle">Expirience</h3>
-        
-        <div class="cartao">
-            
+  
             <div class="cartao">
             <!-- COLUNA 1 -->
-        <div class="col1">
+                <div class="col1">
+                  
+                    <section class="section-post">
+                        <div class="post">
+                        <h5> FinTech Flux</h5>
+                        <small>24 Meses • Engenheiro de Software</small>
+                        <p>Responsável pela arquitetura e manutenção de microserviços utilizando Python e FastAPI, 
+                            processando mais de 50 mil transações diárias com latência inferior a 200ms.</p>
+                    </div>
+                    <div class="post">
+                        <h5>GreenLogistics Solutions</h5>
+                        <small>18 Meses • Desenvolvedor Python Pleno</small>
+                        <p>Desenvolveu e documentou APIs RESTful robustas utilizando Django REST Framework 
+                            para integração com serviços de geolocalização de terceiros.</p>
+                    </div>
+                    <div class="post">
+                        <h5>Making a design system from scratch</h5>
+                        <small>14 Meses • Desenvolvedor Back-End Júnior</small>
+                        <p>Construiu pipelines de dados (ETL) utilizando Pandas e SQLAlchemy para automatizar 
+                            a recolha de dados de múltiplas fontes para um armazém de dados central.</p>
+                    </div>
+                    </section>
+                
 
-            <h1>Jose Tati</h1>
-            <span>Data Analyst</span>
+                </div>
+        
 
-            <div class="icons">
-                <i class="fa-brands fa-github"></i>
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-solid fa-envelope"></i>
-            </div>
-
-            <div class="post">
-                <h5>Making a design system from scratch</h5>
-                <small>12 Feb 2020 • Design</small>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-
-        </div>
-
-        <div class="dvd"></div>
-
-             <!-- COLUNA 2 -->
-        <div class="col2">
-
-            <h1>Adalberto Silvestre</h1>
-            <span>Front-end Designer</span>
-
-            <div class="icons">
-                <i class="fa-brands fa-github"></i>
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-solid fa-envelope"></i>
-            </div>
-
-            <div class="post">
-                <h5>Making a design system from scratch</h5>
-                <small>12 Feb 2020 • Design</small>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-
-        </div>
         </div>
         
        
     </section>
-
-    <div class="container-skills">
+</div>
+    <div id="skills" class="container-skills">
         <section class="skills">
 
             <div class="wp">
@@ -117,21 +122,19 @@
             <h3>USING NOW:</h3>
 
             <div class="grid">
-                <div class="item"><i class="devicon-html5-plain colored"></i><p>HTML5</p></div>
+                <div class="item">
+                    <i class="devicon-html5-plain colored"></i>
+                    <p>HTML5</p>
+                </div>
                 <div class="item"><i class="devicon-css3-plain colored"></i><p>CSS3</p></div>
-                <div class="item"><i class="devicon-javascript-plain colored"></i><p>JavaScript</p></div>
                 <div class="item"><i class="devicon-python-plain colored"></i><p>Python</p></div>
-                <div class="item"><i class="devicon-react-original colored"></i><p>React</p></div>
-                <div class="item"><i class="devicon-tailwindcss-plain colored"></i><p>Tailwind</p></div>
                 <div class="item"><i class="devicon-git-plain colored"></i><p>Git</p></div>
-                <div class="item"><i class="devicon-figma-plain colored"></i><p>Figma</p></div>
+
             </div>
 
             <h3>LEARNING:</h3>
 
             <div class="grid">
-                <div class="item"><i class="devicon-nodejs-plain colored"></i><p>NodeJS</p></div>
-                <div class="item"><i class="devicon-typescript-plain colored"></i><p>TypeScript</p></div>
                 <div class="item"><i class="devicon-postgresql-plain colored"></i><p>PostgreSQL</p></div>
                 <div class="item"><i class="devicon-mongodb-plain colored"></i><p>MongoDB</p></div>    
             </div>
@@ -153,17 +156,17 @@
    
     </main>
     <footer>
-        <div class="btn-back">
-             <img width="30" height="30" src="./assets/ic_baseline-double-arrow.svg" alt="">
+        <a href="#" class="btn-back">
+             <img width="30" height="30" src="../assets/ic_baseline-double-arrow.svg" alt="">
         <p>BACK TO TOP</p>
-        </div>
+        </a>
         <div class="social">
             <a href="https://facebook.com" target="_blank"><img src="./assets/facebook.svg" alt=""></a>
             <a href="https://www.linkedin.com/in/yourusername" target="_blank"><img src="./assets/linkedin.svg" alt=""></a>
             <a href="mailto:youremail@example.com"><img src="./assets/mail.svg" alt=""></a>
             <a href="https://instagram.com/yourusername" target="_blank"><img src="./assets/instagram.svg" alt=""></a>
         </div>
-       <span>@2025 todos os direitos reservados por Adsilves e Jtati</span>
+       <span>@2026 todos os direitos reservados por Jtati</span>
     </footer>
 </body>
 </html>

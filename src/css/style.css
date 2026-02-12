@@ -4,6 +4,9 @@
 @import "./header.css";
 @import "./footer.css";
 
+html {
+  scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
@@ -32,4 +35,8 @@
      font-family: Arial, sans-serif;
     background: #111;
     color: white;
+}
+
+footer a{
+    color: #111;
 }
