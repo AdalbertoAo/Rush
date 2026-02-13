@@ -107,7 +107,7 @@ button{
 .persona{
     margin-top: 4px;
     max-width: 837px;
-    height: auto;
+    height: 100vh;
 }
 
 .desc{
